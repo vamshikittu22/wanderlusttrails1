@@ -19,7 +19,6 @@ const printStyles = `
 
 // Ticket Header component
 const TicketHeader = () => (
-      return (
     <div className="bg-gradient-to-r from-blue-600 to-blue-400 p-4 rounded-t-xl flex items-center justify-between">
         <div>
                             <img alt="Wanderlust Trails Logo" className="h-16 w-auto" />
@@ -27,7 +26,7 @@ const TicketHeader = () => (
                   <h2 className="text-2xl font-bold text-white">Travel Ticket</h2>
                 </div>
           );
-      };
+      );
 
 
 // Ticket Barcode component
