@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import html2pdf from 'html2pdf.js';
 import Barcode from 'react-barcode';
 import { toast } from 'react-toastify';
-import logo from './../assets/Images/wanderlusttrails.jpg';
+// import logo from './../assets/Images/wanderlusttrails.jpg';
 
 // Print styles for ticket printing
 const printStyles = `
@@ -21,11 +21,9 @@ const printStyles = `
 const TicketHeader = () => (
     <div className="bg-gradient-to-r from-blue-600 to-blue-400 p-4 rounded-t-xl flex items-center justify-between">
         <div>
-            <img src={logo} alt="Wanderlust Trails Logo" className="h-10" />
-        </div>
+              <img alt="Wanderlust Trails Logo" className="h-16 w-auto" />        </div>
         <h2 className="text-2xl font-bold text-white">Travel Ticket</h2>
-    </div>
-);
+
 
 // Ticket Barcode component
 const TicketBarcode = ({ ticketNumber }) => (
