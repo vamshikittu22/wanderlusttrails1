@@ -26,7 +26,6 @@ const TicketHeader = () => (
                   <h2 className="text-2xl font-bold text-white">Travel Ticket</h2>
                 </div>
           );
-      );
 
 
 // Ticket Barcode component
